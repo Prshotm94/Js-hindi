@@ -31,3 +31,6 @@ return otp;
 }
 
 console.log("Generated otp is:" + generateOtp());
+
+let date=new Date();
+console.log(date+date.getFullYear());
